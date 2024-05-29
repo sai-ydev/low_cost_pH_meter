@@ -6437,9 +6437,9 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="Q1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="XTAL-4" device="-3225" package3d_urn="urn:adsk.eagle:package:6240809/1" override_package3d_urn="urn:adsk.eagle:package:44163152/2" override_package_urn="urn:adsk.eagle:footprint:6240164/1"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND62" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" override_package3d_urn="urn:adsk.eagle:package:44371524/2" override_package_urn="urn:adsk.eagle:footprint:27901/1"/>
-<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" override_package3d_urn="urn:adsk.eagle:package:44371522/2" override_package_urn="urn:adsk.eagle:footprint:27901/1"/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" override_package3d_urn="urn:adsk.eagle:package:44163119/4" override_package_urn="urn:adsk.eagle:footprint:27901/1"/>
+<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
+<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
+<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" override_package3d_urn="urn:adsk.eagle:package:44163053/2" override_package_urn="urn:adsk.eagle:footprint:40113/1" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" override_package3d_urn="urn:adsk.eagle:package:44163052/2" override_package_urn="urn:adsk.eagle:footprint:40113/1" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -6483,7 +6483,7 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="U$1" library="pH-OEM" deviceset="PH-OEM" device="" override_package3d_urn="urn:adsk.eagle:package:44371571/2" override_package_urn="urn:adsk.eagle:footprint:44371572/1"/>
 <part name="J1" library="TYPE-C-31-M-12" deviceset="TYPE-C-31-M-12" device="" override_package3d_urn="urn:adsk.eagle:package:44375674/2" override_package_urn="urn:adsk.eagle:footprint:44375675/1"/>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U$2" library="pH-OEM" deviceset="PH-OEM" device=""/>
+<part name="U$2" library="pH-OEM" deviceset="PH-OEM" device="" override_package3d_urn="urn:adsk.eagle:package:44443801/2" override_package_urn="urn:adsk.eagle:footprint:44443802/1"/>
 <part name="U2" library="BME280" deviceset="BME280" device="" override_package3d_urn="urn:adsk.eagle:package:44371706/2" override_package_urn="urn:adsk.eagle:footprint:44371707/1"/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -6494,10 +6494,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="GND-ISO1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="U$3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
-<part name="C24" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
-<part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="10uF"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="16.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="16.2k"/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="10k"/>
+<part name="C24" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443812/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
+<part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443815/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="10uF"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="16.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44443855/2" override_package_urn="urn:adsk.eagle:footprint:39615/1" value="16.2k"/>
+<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44443873/2" override_package_urn="urn:adsk.eagle:footprint:39615/1" value="10k"/>
 <part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="U$4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
@@ -6513,23 +6513,24 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="R18" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44371561/2" override_package_urn="urn:adsk.eagle:footprint:44371562/1" value="100"/>
 <part name="L1" library="LQW18AN2N2D10D" deviceset="LQW18AN2N2D10D" device="" override_package3d_urn="urn:adsk.eagle:package:44375857/2" override_package_urn="urn:adsk.eagle:footprint:44375859/1"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="C23" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
-<part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="10uF"/>
+<part name="C23" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443825/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
+<part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443828/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="10uF"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="10uF"/>
-<part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
-<part name="C30" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="10uF"/>
-<part name="C31" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
+<part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443837/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="10uF"/>
+<part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443842/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
+<part name="C30" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443844/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="10uF"/>
+<part name="C31" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-50V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443850/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
 <part name="U$5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
-<part name="C32" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
+<part name="C32" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443854/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
 <part name="GND-ISO4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="U$6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/2" override_package3d_urn="urn:adsk.eagle:package:44371495/2" override_package_urn="urn:adsk.eagle:footprint:39307/2"/>
-<part name="C33" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" value="0.1uF"/>
+<part name="C33" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44443848/2" override_package_urn="urn:adsk.eagle:footprint:41385038/1" value="0.1uF"/>
 <part name="GND-ISO6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
-<part name="J4" library="60312202114511" deviceset="60312202114511" device=""/>
-<part name="J5" library="60312202114511" deviceset="60312202114511" device=""/>
+<part name="J4" library="60312202114511" deviceset="60312202114511" device="" override_package3d_urn="urn:adsk.eagle:package:44443783/3" override_package_urn="urn:adsk.eagle:footprint:44443784/1"/>
+<part name="J5" library="60312202114511" deviceset="60312202114511" device="" override_package3d_urn="urn:adsk.eagle:package:44443794/2" override_package_urn="urn:adsk.eagle:footprint:44443795/1"/>
+<part name="C34" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:41385090/1" override_package3d_urn="urn:adsk.eagle:package:44353897/2" override_package_urn="urn:adsk.eagle:footprint:44353898/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6757,6 +6758,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <attribute name="NAME" x="144.526" y="77.343" size="1.016" layer="95" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="144.272" y="78.105" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
+<instance part="C34" gate="G$1" x="13.462" y="146.05" smashed="yes">
+<attribute name="NAME" x="13.716" y="148.463" size="1.27" layer="95" font="vector" ratio="20"/>
+<attribute name="VALUE" x="13.97" y="145.161" size="1.016" layer="96" font="vector" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6819,6 +6824,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <wire x1="50.038" y1="143.51" x2="50.038" y2="139.192" width="0.1524" layer="91"/>
 <wire x1="50.038" y1="139.192" x2="44.704" y2="139.192" width="0.1524" layer="91"/>
 <junction x="44.704" y="139.192"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<wire x1="13.462" y1="143.51" x2="13.462" y2="139.192" width="0.1524" layer="91"/>
+<wire x1="13.462" y1="139.192" x2="18.542" y2="139.192" width="0.1524" layer="91"/>
+<junction x="18.542" y="139.192"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -6979,6 +6988,10 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <wire x1="18.542" y1="151.13" x2="18.542" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="18.542" y1="154.94" x2="23.876" y2="154.94" width="0.1524" layer="91"/>
 <junction x="23.876" y="154.94"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+<wire x1="13.462" y1="151.13" x2="13.462" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="13.462" y1="154.94" x2="18.542" y2="154.94" width="0.1524" layer="91"/>
+<junction x="18.542" y="154.94"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="VDD"/>
