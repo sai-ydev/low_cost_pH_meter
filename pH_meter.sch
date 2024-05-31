@@ -5399,6 +5399,30 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <smd name="7" x="4.7" y="1.27" dx="1.7" dy="1.45" layer="1" rot="R180"/>
 <smd name="8" x="4.7" y="3.81" dx="1.7" dy="1.45" layer="1" rot="R180"/>
 </package>
+<package name="SOIC127P599X175-8N">
+<wire x1="-1.9475" y1="2.4525" x2="1.9475" y2="2.4525" width="0.127" layer="51"/>
+<wire x1="1.9475" y1="2.4525" x2="1.9475" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="1.9475" y1="-2.4525" x2="-1.9475" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="-1.9475" y1="-2.4525" x2="-1.9475" y2="2.4525" width="0.127" layer="51"/>
+<wire x1="-1.165" y1="2.4525" x2="1.165" y2="2.4525" width="0.127" layer="21"/>
+<wire x1="-1.165" y1="-2.4525" x2="1.165" y2="-2.4525" width="0.127" layer="21"/>
+<wire x1="-3.705" y1="2.7025" x2="-3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="-2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="3.705" y1="-2.7025" x2="3.705" y2="2.7025" width="0.05" layer="39"/>
+<wire x1="3.705" y1="2.7025" x2="-3.705" y2="2.7025" width="0.05" layer="39"/>
+<circle x="-4.375" y="1.935" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.375" y="1.935" radius="0.1" width="0.2" layer="51"/>
+<text x="-3.705" y="2.9405" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.705" y="-2.9405" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="2" x="-2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="3" x="-2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="4" x="-2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="8" x="2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="5" x="2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="6" x="2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="7" x="2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SFH6325-X017T">
@@ -5520,6 +5544,21 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="PRICE" value="None"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SFH6325-X017T/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"/>
 </technology>
+</technologies>
+</device>
+<device name="EL0631" package="SOIC127P599X175-8N">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="4"/>
+<connect gate="G$1" pin="C(VCC)" pad="8"/>
+<connect gate="G$1" pin="C1" pad="2"/>
+<connect gate="G$1" pin="C1(VO1)" pad="7"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="C2(VO2)" pad="6"/>
+<connect gate="G$1" pin="E(GND)" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6501,7 +6540,7 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="U$4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
-<part name="U5" library="SFH6325-X017T" deviceset="SFH6325-X017T" device="" override_package3d_urn="urn:adsk.eagle:package:44371568/2" override_package_urn="urn:adsk.eagle:footprint:44371569/1"/>
+<part name="U5" library="SFH6325-X017T" deviceset="SFH6325-X017T" device="EL0631" override_package3d_urn="urn:adsk.eagle:package:44371568/2" override_package_urn="urn:adsk.eagle:footprint:44371569/1" override_locally_modified="yes" value="SFH6325-X017TEL0631"/>
 <part name="GND-ISO3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
