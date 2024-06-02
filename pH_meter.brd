@@ -194,7 +194,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjQwNTE5NzY3MjkwODMx" f3durn="urn:adsk.wipprod:dm.lineage:6FdoMEE3SXqZVCHnU0feqA" pcbguid="" lastpulledtime="2024-05-23T05:22:40Z" lastsyncedchangeguid="" latestrevisionid="246ed595-bdfd-4b31-bf45-b634a85b7d7f" lastsyncedrevisionid="246ed595-bdfd-4b31-bf45-b634a85b7d7f" lastboardhashguid="dd22a266-b621-bcab-7e9e-f1303bb3425f" lastpushedtime="2024-05-29T05:56:41Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjQwNTE5NzY3MjkwODMx" f3durn="urn:adsk.wipprod:dm.lineage:6FdoMEE3SXqZVCHnU0feqA" pcbguid="" lastpulledtime="2024-05-23T05:22:40Z" lastsyncedchangeguid="" latestrevisionid="500534dd-b62f-4f76-bb19-acdfe7fb7db8" lastsyncedrevisionid="500534dd-b62f-4f76-bb19-acdfe7fb7db8" lastboardhashguid="d3560deb-bcfe-8b97-3bf6-299545501cdb" lastpushedtime="2024-06-02T18:13:48Z" linktopcb3d="true"/>
 <fusionteam huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMTgwMjI2MTIwMDEyOTA2" folderUrn="urn:adsk.wipprod:fs.folder:co.fe5effZoQdWfpMQ07PK-9Q" urn="urn:adsk.wipprod:dm.lineage:Uryq3xNzQpWo5x4RSJnwhw"  versionUrn="urn:adsk.wipprod:fs.file:vf.Uryq3xNzQpWo5x4RSJnwhw?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="d712bcb4-3351-3c99-3128-cb1ea3d88292"/>
 <plain>
 <text x="18.796" y="54.61" size="1.016" layer="25" font="vector" ratio="20">BOOT</text>
@@ -1589,7 +1589,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-08272" x="55.1434" y="25.4762" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="2.2k" x="54.3814" y="24.7142" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U5" library="SFH6325-X017T" package="SOIC127P599X175-8N" override_package3d_urn="urn:adsk.eagle:package:44371568/2" override_package_urn="urn:adsk.eagle:footprint:44371569/1" override_locally_modified="yes" value="SFH6325-X017TEL0631" x="16.764" y="30.48" smashed="yes" rot="R90">
+<element name="U5" library="SFH6325-X017T" package="SOIC127P599X175-8N" override_package3d_urn="urn:adsk.eagle:package:44371568/4" override_package_urn="urn:adsk.eagle:footprint:44371569/2" value="SFH6325-X017TEL0631" x="16.764" y="30.48" smashed="yes" rot="R90">
 <attribute name="VALUE" x="23.37666875" y="26.7729" size="1.272440625" layer="27" rot="R90"/>
 </element>
 <element name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44371564/2" override_package_urn="urn:adsk.eagle:footprint:39615/1" value="1k" x="8.8392" y="31.1404" smashed="yes" rot="R180">
@@ -3137,6 +3137,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="23,1,57d0d5abd05d2157"/>
 <approved hash="23,1,1f3702c50aa11fa7"/>
 <approved hash="23,16,93481a90d36791fe"/>
+<approved hash="23,1,8ca27b527b728c82"/>
+<approved hash="23,1,bb09b47b538a6496"/>
+<approved hash="23,15,25cc75bc75082578"/>
+<approved hash="23,15,aa53e8a8759e3c5c"/>
+<approved hash="23,15,93b31c6cb0923446"/>
+<approved hash="23,15,91bfbbc1bb61911f"/>
+<approved hash="23,15,071667d667880748"/>
+<approved hash="23,15,742b5aeb5a9a745a"/>
+<approved hash="23,15,2e30af2cd8d31841"/>
+<approved hash="23,15,292d2e5d2e8129f1"/>
+<approved hash="23,15,5d177967790b5d7b"/>
+<approved hash="23,15,0b03f8c3fb800840"/>
+<approved hash="23,15,1615d84094701466"/>
+<approved hash="23,15,f789d7f9d70ef77e"/>
+<approved hash="23,15,f3c0f64780b28c4e"/>
+<approved hash="23,15,d5bf71f37fad4c5f"/>
+<approved hash="23,15,522593e593c65206"/>
+<approved hash="23,15,1122091e088f10b3"/>
+<approved hash="23,15,b70476747779b609"/>
+<approved hash="23,15,df1c5e1d1f5f4181"/>
+<approved hash="23,15,8f3d08fd089a8f5a"/>
+<approved hash="23,15,5ce4029a02085c76"/>
+<approved hash="23,15,4976334a339349af"/>
+<approved hash="23,15,5b7a65ba664a588a"/>
+<approved hash="23,15,4a75b403b2034c75"/>
 </errors>
 </board>
 </drawing>

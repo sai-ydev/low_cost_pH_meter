@@ -6540,7 +6540,7 @@ Updated by Ella Wu 2023-10-10&lt;br&gt;
 <part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2k"/>
 <part name="U$4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
-<part name="U5" library="SFH6325-X017T" deviceset="SFH6325-X017T" device="EL0631" override_package3d_urn="urn:adsk.eagle:package:44371568/2" override_package_urn="urn:adsk.eagle:footprint:44371569/1" override_locally_modified="yes" value="SFH6325-X017TEL0631"/>
+<part name="U5" library="SFH6325-X017T" deviceset="SFH6325-X017T" device="EL0631" override_package3d_urn="urn:adsk.eagle:package:44371568/4" override_package_urn="urn:adsk.eagle:footprint:44371569/2" value="SFH6325-X017TEL0631"/>
 <part name="GND-ISO3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND-ISO" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
